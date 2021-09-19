@@ -39,12 +39,19 @@ The data going into these models was never scaled, an important step in preproce
 The LogisticRegression and RandomForestClassifier models were Fit and scored on the scaled data. 
 
 ### Results:
-- 
-- Logistic Regression is a better model fit for the data and is also sensitive when the data is scaled and when important features are selected. For Random Forest there is no visible change once the data is scaled and improtant features are selected.
+ 
+- Score from testing data using Logisitic Regression: 0.5168013611229264
+-Score from testing data using Random forest classifier: 0.5857082092726499
+-Score from scaled testing data using logistic Regression: 0.7501063377286261
+-Score from scaled testing data using random forest classifier: 0.5850701829008932 
 
 ### Conclusion 
 
-- Logistic Regression is a better model fit for the data and is also sensitive when the data is scaled and when important features are selected. For Random Forest there is no visible change once the data is scaled and improtant features are selected.
+-0.7501063377286261 > 0.5850701829008932 
+-Logistic regression model yielded a higher score of 0.75 compared to the random forest score of 0.59
+- Logistic Regression is a better model fit for the data
+- Logisitic regression is more flexible and attentive to scaled data as opposed to random forest classifier
+ 
 ### References
 
 LendingClub (2019-2020) _Loan Stats_. Retrieved from: [https://resources.lendingclub.com/](https://resources.lendingclub.com/)
